@@ -1,0 +1,80 @@
+body {
+  background-color: #222831;
+  margin: 0;
+  text-align: center;
+}
+.dice {
+  float: left;
+}
+#dice1 {
+  position: relative;
+  margin-left: 380px;
+}
+#dice2 {
+  position: relative;
+  margin-left: 90px;
+}
+
+h1 {
+  margin-top: 50px;
+  color: #16c79a;
+  font-family: "Righteous", serif;
+  font-size: 80px;
+}
+
+p {
+  margin: 1em;
+  padding: 1em;
+  float: left;
+}
+.player {
+  display: flex;
+  justify-content: center;
+  font-family: "Inconsolata", serif;
+  margin-top: -5px;
+  font-size: 20px;
+}
+#player1 {
+  position: relative;
+  margin-right: 80px;
+  font-size: 25px;
+  color: #16c79a;
+}
+#player2 {
+  position: relative;
+  margin-left: 90px;
+  font-size: 25px;
+  color: #16c79a;
+}
+.text {
+  overflow: hidden;
+}
+
+/*.container {
+  display: flex;
+  margin: 1em;
+  padding: 1em;
+  /* float: left;
+  overflow: hidden; 
+  background-color: #a20222;
+  width: 170px;
+  height: 170px;
+  justify-content: space-between;
+}
+.cont{
+  margin: 15px 5px;
+  /* padding: 10px; 
+  display: flex;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 180px;
+  background: white;
+  /* position: relative; */
+/* margin-right: 120px; 
+}
+
+.Contenedor {
+  display: flex;
+  justify-content: center;
+} */
